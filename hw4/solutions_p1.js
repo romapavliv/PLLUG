@@ -20,3 +20,7 @@ let toCamelCase = (arr) => {
 let sortObj = Object.fromEntries(
     Object.entries(obj).filter(([key, val]) => { return val >= 0 ? [key, val] : false})
 );
+
+let toCamelCase = (arr)  //це декларація функції. Є інший метод для створення функції.
+Чому не створена друга функція як описано в завданні? Зроблено тільки роботи з масивом.
+ Завдання виконано не повністю.
