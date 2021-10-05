@@ -20,3 +20,12 @@ let toCamelCase = (arr) => {
 let sortObj = Object.fromEntries(
     Object.entries(obj).filter(([key, val]) => { return val >= 0 ? [key, val] : false})
 );
+
+Потрібно написати функцію яку можна викликати, в даному прикладі це не функція і її неможна викликати.
+let numToLetter = arr.filter(elem => { return elem >= 1 && elem <= 26 ? elem : false})
+    .map(elem => { return (elem + 9).toString(36) }) // також можна завернути все це у функцію
+
+Це саме можна сказати і про цей код.
+let sortObj = Object.fromEntries(
+    Object.entries(obj).filter(([key, val]) => { return val >= 0 ? [key, val] : false})
+);
